@@ -1,0 +1,41 @@
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background-color: white;
+  color: #6366f1;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+}
