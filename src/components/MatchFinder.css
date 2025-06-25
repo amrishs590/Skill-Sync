@@ -1,0 +1,26 @@
+.match-finder {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.match-finder h2 {
+  margin-bottom: 1rem;
+  color: #4f46e5;
+}
+
+.match-finder ul {
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.match-finder li {
+  margin-bottom: 1rem;
+  background: #eef2ff;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  list-style: none;
+}
